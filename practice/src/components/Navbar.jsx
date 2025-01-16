@@ -18,6 +18,15 @@ function Navbar({ color: initialColor }) { // Renamed destructured prop to avoid
     alert("Hey! I am running because color was changed.");
   }, [color]);
 
+  // Example of Cleanup Function
+  useEffect(() => {
+    alert("Render of App.jsx")
+  
+    return () => {
+      alert("Component was unmounted.")
+    }
+  }, [])
+  
   return (
     <div>I am a navbar of {color} color.</div>
   );
