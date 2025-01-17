@@ -50,17 +50,3 @@
    2. Use `useEffect` with a debounce function to delay updating the search query.
    3. Display the debounced search query.
 
-### 9. **Clipboard Text Reader**
-   **Steps:**
-   1. Create a `ClipboardReader` component.
-   2. Use `useEffect` to add an event listener for `copy` events.
-   3. Display the copied text in the component.
-   4. Cleanup the event listener in the cleanup function.
-
-### 10. **Local Storage Synchronization**
-   **Steps:**
-   1. Create a `LocalStorageSync` component with a state variable.
-   2. Use `useEffect` to update local storage whenever the state changes.
-   3. Load the initial state from local storage on component mount.
-
-These projects help you understand and apply `useEffect` in different scenarios, including side effects, data fetching, event listeners, and cleanup.
